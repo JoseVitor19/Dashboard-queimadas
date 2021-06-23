@@ -84,7 +84,6 @@ $(document).ready(function () { //quando a pagina estiver pronta....
         }
     }
 
-    var linha_2020 = $.get({url: "http://172.23.14.98:3000/detect_count_by_month", dataType: "json"})
     var linha_2021 = $.get({url: "http://172.23.14.98:3000/detection_2021_count_juliandate", dataType: "json"})
 
 
