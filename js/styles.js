@@ -14,6 +14,6 @@ $(function () { //quando a pagina estiver carregada
         $(this).css("color", "#FBFBFF");
     });
 
-
+    $(".loader").show();
 //----------------------------------------------
 }); // ON READY PAGINA HTML
