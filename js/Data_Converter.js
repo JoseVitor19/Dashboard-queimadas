@@ -32,7 +32,7 @@ function julianIntToDate(n) {
     return new Date(Y, M, D);
 }
 
-function getMonthFromJulianDay(d) {
+export function getMonthFromJulianDay(d) {
     //para ano bisexto
     switch (d) {
         case d <= 31:
